@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/326fa2dd31.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>WEB DEVELOPMENT BOOTCAMP</title>
+  </head>
+  <body>
+    <header class="hero">
+      <h1 class="hero__title">WEB DEVELOPMENT <br />BOOTCAMP</h1>
+      <p class="hero__subtitle">My Photo Gallery</p>
+    </header>
+    <main>
+      <section>
+        <h2 class="divider">Features</h2>
+        <ul class="feature-content">
+          <li class="feature-list">
+            <img
+              src="../assets/features/image-bootcamp-feature-1.png"
+              alt="Image bootcamp feature 1"
+              class="feature-list__img"
+            />
+            <div class="feature-list__box">
+              <h3 class="feature-list__title">City Skyline</h3>
+              <p class="feature-list__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                sed euismod diam. In pretium in odio at pretium. Aenean in
+                suscipit enim. Aliquam lacus nulla, dapibus a eleifend sed,
+                gravida sit amet justo. Nulla vel diam at orci semper mattis.
+              </p>
+            </div>
+          </li>
+          <li class="feature-list">
+            <img
+              src="../assets/features/image-bootcamp-feature-2.png"
+              alt="Image bootcamp feature 2"
+              class="feature-list__img"
+            />
+            <div class="feature-list__box">
+              <h3 class="feature-list__title">Corporate Stockphoto</h3>
+              <p class="feature-list__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                sed euismod diam. In pretium in odio at pretium. Aenean in
+                suscipit enim. Aliquam lacus nulla, dapibus a eleifend sed,
+                gravida sit amet justo. Nulla vel diam at orci semper mattis.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="divider">My Work</h2>
+        <div class="photo-grid">
+          <img
+            src="../assets/grid/image-bootcamp-1.png"
+            alt="Image bootcamp 1"
+            class="photo-grid__img"
+          />
+          <img
+            src="../assets/grid/image-bootcamp-2.png"
+            alt="Image bootcamp 2"
+            class="photo-grid__img"
+          />
+          <img
+            src="../assets/grid/image-bootcamp-3.png"
+            alt="Image bootcamp 3"
+            class="photo-grid__img"
+          />
+          <img
+            src="../assets/grid/image-bootcamp-4.png"
+            alt="Image bootcamp 4"
+            class="photo-grid__img"
+          />
+          <img
+            src="../assets/grid/image-bootcamp-5.png"
+            alt="Image bootcamp 5"
+            class="photo-grid__img"
+          />
+          <img
+            src="../assets/grid/image-bootcamp-6.png"
+            alt="Image bootcamp 6"
+            class="photo-grid__img"
+          />
+        </div>
+      </section>
+      <section>
+        <h2 class="divider">More Photos</h2>
+        <div class="slider">
+          <div class="slider__wrapper">
+            <img
+              src="../assets/slider/slide1.jpg"
+              alt="Image slider 1"
+              class="slider__img"
+            />
+            <img
+              src="../assets/slider/slide2.jpg"
+              alt="Image slider 2"
+              class="slider__img"
+            />
+            <img
+              src="../assets/slider/slide3.jpg"
+              alt="Image slider 3"
+              class="slider__img"
+            />
+            <img
+              src="../assets/slider/slide4.jpg"
+              alt="Image slider 4"
+              class="slider__img"
+            />
+          </div>
+          <a class="slider__arrow slider__arrow--prev" onclick="plusSlides(-1)">
+            <i class="fa-solid fa-chevron-left"></i>
+          </a>
+          <a class="slider__arrow slider__arrow--next" onclick="plusSlides(1)">
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <ul class="slider__dots">
+            <li class="slider__dots-item" onclick="currentSlide(1)">&nbsp;</li>
+            <li class="slider__dots-item" onclick="currentSlide(2)">&nbsp;</li>
+            <li class="slider__dots-item" onclick="currentSlide(3)">&nbsp;</li>
+            <li class="slider__dots-item" onclick="currentSlide(4)">&nbsp;</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__about">
+          <h3>Jane Doe</h3>
+          <p>
+            Hello, beautiful passerby. I’m Jane Doe. A passionate photographer.
+            I love to bla bla bla.... bla bla bla.... bla bla bla.... bla bla
+            bla.... bla bla bla.... bla bla bla.... bla bla bla.... I’m
+            available for hiring.
+          </p>
+          <form>
+            <input type="email" placeholder="Enter your email" />
+            <button>
+              Subscribe <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </form>
+        </div>
+        <div class="footer__contact">
+          <h3>Get In Touch!</h3>
+          <p>
+            MBK Tower 20th Floor, 444, Phaya Thai Rd, Wang Mai, Pathum Wan,
+            Bangkok 10330
+          </p>
+          <p>
+            Email:
+            <a href="mailto:jane.doe@realmail.com">jane.doe@realmail.com</a>
+          </p>
+          <ul>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">© 2023, Jane Doe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
