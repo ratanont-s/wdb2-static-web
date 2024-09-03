@@ -1,25 +1,25 @@
 @import './reset';
 
 @font-face {
-    src: url("../assets/fonts/Poppins-Light.ttf");
+    src: url("./assets/fonts/Poppins-Light.ttf");
     font-family: "Poppins";
     font-weight: 300;
 }
 
 @font-face {
-    src: url("../assets/fonts/Poppins-Regular.ttf");
+    src: url("./assets/fonts/Poppins-Regular.ttf");
     font-family: "Poppins";
     font-weight: 400;
 }
 
 @font-face {
-    src: url("../assets/fonts/Poppins-SemiBold.ttf");
+    src: url("./assets/fonts/Poppins-SemiBold.ttf");
     font-family: "Poppins";
     font-weight: 600;
 }
 
 @font-face {
-    src: url("../assets/fonts/Poppins-Bold.ttf");
+    src: url("./assets/fonts/Poppins-Bold.ttf");
     font-family: "Poppins";
     font-weight: 700;
 }
@@ -57,7 +57,7 @@ main {
     text-align: center;
     color: var(--color-wd-greensolid);
     height: 400px;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0) -49.18%, #000000 100%), url('../assets/hero/hero.jpg') no-repeat center/cover;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) -49.18%, #000000 100%), url('./assets/hero/hero.jpg') no-repeat center/cover;
 
     &__title {
         font-weight: 700;
